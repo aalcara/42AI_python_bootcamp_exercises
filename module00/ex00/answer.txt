@@ -1,0 +1,7 @@
+pip list | cut -d " " -f1
+pip list
+pip show numpy
+pip search tesseract
+pip freeze > requirements.txt
+
+5. Freeze the packages and their current versions in a `requirements.txt` file you have to turn-in.
